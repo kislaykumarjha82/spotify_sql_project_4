@@ -1,5 +1,5 @@
+##  Spotify  SQL Project And Query Optimization
 
-#Spotify Advanced SQL Project and Query Optimization
 
 <img width="750" height="468" alt="image" src="https://github.com/user-attachments/assets/16684c39-3cc7-4fdd-856b-69b1283a5cd1" />
 <img width="750" height="468" alt="spotify logo" src="https://github.com/user-attachments/assets/a3cf77f2-fef8-4677-aa7e-dfbdb03ec6f6" />
