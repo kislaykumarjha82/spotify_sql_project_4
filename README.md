@@ -1,6 +1,9 @@
-#Spotify Advanced SQL Project and Query Optimization
+##Spotify Advanced SQL Project and Query Optimization
 
-<img width="1024" height="583" alt="spotify logo" src="https://github.com/user-attachments/assets/6c1b4f42-7b03-4820-9a15-346734a2612a" />
+<img width="750" height="468" alt="image" src="https://github.com/user-attachments/assets/16684c39-3cc7-4fdd-856b-69b1283a5cd1" />
+<img width="750" height="468" alt="spotify logo" src="https://github.com/user-attachments/assets/a3cf77f2-fef8-4677-aa7e-dfbdb03ec6f6" />
+
+
 
 
 
@@ -14,6 +17,7 @@ This project demonstrates advanced SQL techniques on a Spotify dataset, covering
 * The dataset contains details such as track name, artist, album, audio features (e.g., energy, danceability), views, streams, likes, comments, and platforms where the tracks were most played.
 
 ---
+
 
 ## Table Schema
 
@@ -45,6 +49,7 @@ CREATE TABLE spotify (
     most_played_on VARCHAR(50)
 );
 ```
+<img width="1270" height="361" alt="spotify_graphical view 3" src="https://github.com/user-attachments/assets/7dbdfb6b-0e08-4030-9a0e-ab6cd1b4978c" />
 
 ---
 
@@ -181,6 +186,8 @@ FROM spotify
 WHERE likes IS NOT NULL AND views IS NOT NULL
 ORDER BY views DESC;
 ```
+<img width="968" height="278" alt="spotify_graphical view 2" src="https://github.com/user-attachments/assets/e39aee3e-27d6-4fbc-b36d-efbec50c45f6" />
+<img width="1358" height="276" alt="spotify_graphical view 1" src="https://github.com/user-attachments/assets/fc6e4b13-fb02-422d-ae63-d7095b0776ba" />
 
 ---
 
@@ -199,6 +206,8 @@ LIMIT 25;
 ```
 
 ### Solution:
+<img width="1270" height="361" alt="spotify_graphical view 3" src="https://github.com/user-attachments/assets/c0044088-e3e7-4224-aa58-50ec8bb980d6" />
+<img width="893" height="364" alt="spotify_explain_before_index" src="https://github.com/user-attachments/assets/ca06bcef-f966-4904-a4f9-bd9f33de23a9" />
 
 Created an index on the `artist` column:
 
